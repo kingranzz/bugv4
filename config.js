@@ -23,7 +23,7 @@ global.location = '1' //Ganti Pake Location Panel Lu
 //===========================//
 
 global.prefa = ['','!','.',',','🐤','🗿']
-global.owner = ['6281228995864']
+global.owner = ['6282393734303']
 global.ownMain = '6281228995864'
 global.NamaOwner = 'bpc_story' //gausah diganti 
 global.sessionName = 'ryokunsession'
