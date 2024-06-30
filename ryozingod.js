@@ -1,8 +1,8 @@
 /*
 > Kalo Mau Recode Kasih Credit gw ›
-TheZetsubXygen / AkmalMods
+TheZetsubXygen / RanzGood
 
-📝 | Created By AkmalMods / Ryo
+📝 | Created By RanzGood / Ryo
 🖥️ | Base Ori By TheZetsubXygen / Ryo
 
 
@@ -480,7 +480,7 @@ if (db.data.settings[botNumber].autobio) {
 let setting = db.data.settings[botNumber]
 if (new Date() * 1 - setting.status > 1000) {
 let uptime = await runtime(process.uptime())
-await ryozingod.updateProfileStatus(`✳️ ZeroXV - Client By : AkmalMods || ✅ Runtime : ${uptime}`)
+await ryozingod.updateProfileStatus(`✳️ ZeroXV - Client By : RanzGood || ✅ Runtime : ${uptime}`)
 setting.status = new Date() * 1
 }
 }
@@ -744,7 +744,7 @@ remoteJid: "status@broadcast"
 },
 message: {
 buttonsResponseMessage: {
-selectedButtonId: 'pois0n - zxv',
+selectedButtonId: 'pois0n - RanzGood',
 type: 1,
 response: {
 selectedDisplayText: 'penis'
@@ -765,7 +765,7 @@ newsletterAdminInviteMessage: {
 newsletterJid: `120363224727390375@newsletter`,
 newsletterName: `🔥`,
 jpegThumbnail: fakejpg,
-caption: ` ZxV - Bug ? \n ⿻ ${m.body || m.mtype} `,
+caption: ` RanzGood - Bug ? \n ⿻ ${m.body || m.mtype} `,
 inviteExpiration: Date.now() + 1814400000
 }
 }
@@ -1027,7 +1027,7 @@ participant: mek.key.participant
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 Group Link Terdeteksi 」\`\`\`\n\n@${m.sender.split("@")[0]} Jangan kirim group link di group ini`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
 }
 }
- // Antiwame by geekz and modified by AkmalMods
+ // Antiwame by geekz and modified by RanzGood
 if (AntiWame)
 if (budy.toLowerCase().includes("wa.me")){
 if (!isBotAdmins) return
@@ -1048,7 +1048,7 @@ participant: mek.key.participant
 /*ryozingod.groupParticipantsUpdate(m.chat, [m.sender], 'remove')*/
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 Wa.me Link Terdeteksi 」\`\`\`\n\n@${kice.split("@")[0]} Jangan kirim wa.me link di group ini`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 }
-//antivirtex by geekz and modified by AkmalMods
+//antivirtex by geekz and modified by RanzGood
   if (AntiVirtex) {
   if (budy.length > 3500) {
   if (!isBotAdmins) return joreply(mess.botAdmin)
@@ -1065,7 +1065,7 @@ ryozingod.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 Virus Terdeteksi 」\`\`\`\n\n${pushname} Telah ditendang karena mengirim virus di group ini`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
   }
   }
-//anti bad words by geekz and modified by AkmalMods
+//anti bad words by geekz and modified by RanzGood
 if (AntiToxic && !budy.includes("deletebadwords") && !budy.includes("delbadwords"))
 if (badwords.some(word => budy.toLowerCase().includes(word))){
 if (!isBotAdmins) return
@@ -1086,7 +1086,7 @@ participant: mek.key.participant
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 Kata Kasar Terdeteksi 」\`\`\`\n\n${pushname} Mohon tidak menggunakan kata kasar di group ini`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
 } else {
 }
-//antiasing by geekz and modified by AkmalMods
+//antiasing by geekz and modified by RanzGood
 if (m.isGroup && isBotAdmins && AntiAsing) {
 let member = await participants.map((x) => x.id)
 for (let i = 0; i < participants.length; i++) {
@@ -1099,7 +1099,7 @@ await sleep(1000)
 }
 }
 }
-//antilink youtube video by geekz and modified by AkmalMods
+//antilink youtube video by geekz and modified by RanzGood
 if (AntiLinkYoutubeVid)
 if (budy.toLowerCase().includes("youtu.be")){
 if (!isBotAdmins) return
@@ -1120,7 +1120,7 @@ participant: mek.key.participant
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 YouTube Video Link Terdeteksi 」\`\`\`\n\n${pushname} Jangan kirim youtube video link di group ini`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
 } else {
 }
-//antilink youtube channel by geekz and modified by AkmalMods
+//antilink youtube channel by geekz and modified by RanzGood
 if (AntiLinkYoutubeChannel)
 if (budy.toLowerCase().includes("youtube.com")){
 if (!isBotAdmins) return
@@ -1141,7 +1141,7 @@ participant: mek.key.participant
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 YouTube Channel Link Terdeteksi 」\`\`\`\n\n${pushname} Jangan kirim youtube channel link di group ini`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
 } else {
 }
-//antilink instagram by geekz and modified by AkmalMods
+//antilink instagram by geekz and modified by RanzGood
 if (AntiLinkInstagram)
 if (budy.toLowerCase().includes("instagram.com")){
 if (!isBotAdmins) return
@@ -1162,7 +1162,7 @@ participant: mek.key.participant
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 Instagram Link Terdeteksi 」\`\`\`\n\n${pushname} Jangan kirim instagram link di group ini`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
 } else {
 }
-//antilink facebook by geekz and modified by AkmalMods
+//antilink facebook by geekz and modified by RanzGood
 if (AntiLinkFacebook)
 if (budy.toLowerCase().includes("facebook.com")){
 if (!isBotAdmins) return
@@ -1183,7 +1183,7 @@ participant: mek.key.participant
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 Facebook Link Terdeteksi 」\`\`\`\n\n${pushname} Jangan kirim facebook link di group ini`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
 } else {
 }
-//antilink telegram by geekz and modified by AkmalMods
+//antilink telegram by geekz and modified by RanzGood
 if (AntiLinkTelegram)
 if (budy.toLowerCase().includes("t.me")){
 if (AntiLinkTelegram)
@@ -1205,7 +1205,7 @@ participant: mek.key.participant
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 Telegram Link Terdeteksi 」\`\`\`\n\n${pushname} Jangan kirim telegram link di group ini`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
 } else {
 }
-//antilink tiktok by geekz and modified by AkmalMods
+//antilink tiktok by geekz and modified by RanzGood
 if (AntiLinkTiktok)
 if (budy.toLowerCase().includes("tiktok.com")){
 if (!isBotAdmins) return
@@ -1226,7 +1226,7 @@ participant: mek.key.participant
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 Tiktok Link Terdeteksi 」\`\`\`\n\n${pushname} Jangan kirim tiktok link di group ini`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
 } else {
 }
-//antilink twitter by geekz and modified by AkmalMods
+//antilink twitter by geekz and modified by RanzGood
 if (AntiLinkTwitter)
 if (budy.toLowerCase().includes("twitter.com")){
 if (!isBotAdmins) return
@@ -1247,7 +1247,7 @@ participant: mek.key.participant
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 Tiktok Link Terdeteksi 」\`\`\`\n\n${pushname} Jangan kirim twitter link di grup ini`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
 } else {
 }
-//antilink all by geekz and modified by AkmalMods
+//antilink all by geekz and modified by RanzGood
 if (AntiLinkAll)
 if (budy.toLowerCase().includes("http")){
 if (!isBotAdmins) return
@@ -1901,43 +1901,6 @@ let jinjing = [nulll, nulll2]
 let randomIndex = Math.floor(Math.random() * jinjing.length)
 let mydick = jinjing[randomIndex]
 
-//text menu
-let penisbengkok = `
-*${ucapanWaktu} @${m.sender.split("@")[0]}*
-
-┏❐  ⌜ ZxV - Bot ⌟  ❐
-┃⭔ Creator : AkmalMods
-┃⭔ Library : WS-Baileys
-┃⭔ Type : Case
-┃⭔ Status : Ready
-┃⭔ Mode : ${ryozingod.public ? '✱ Public ༣' : '✲ Self ༣'}
-┃⭔ User : ${Object.keys(db.data.users).length}
-┃⭔ Prefix : Single
-┗❐
-
-AkmalMods © Copyright`
-
-let njing = `
-*${ucapanWaktu} @${m.sender.split("@")[0]}*
-
-┏❐  ⌜ ZxV - Bot ⌟  ❐
-┃⭔ Creator : AkmalMods
-┃⭔ Library : WS-Baileys
-┃⭔ Type : Case
-┃⭔ Status : Ready
-┃⭔ Mode : ${ryozingod.public ? '✱ Public ༣' : '✲ Self ༣'}
-┃⭔ User : ${Object.keys(db.data.users).length}
-┃⭔ Prefix : Single 
-┗❐
-
-❐${prefix}spesialmenu
-❐${prefix}allmenu
-❐${prefix}changemenu button/non
-❐${prefix}owner
-❐${prefix}botstatus
-
-AkmalMods © Copyright`
-
 //Button Menu
 let freesex = {
 viewOnceMessage: {
@@ -2009,8 +1972,8 @@ let jinjing = [nulll, nulll2]
 let randomIndex = Math.floor(Math.random() * jinjing.length)
 let mydick = jinjing[randomIndex]
 let itsmenu = `
-┏❐  ⌜ ZxV - Bot ⌟  ❐
-┃⭔ Creator : AkmalMods
+┏❐  ⌜ RanzGood - Bot ⌟  ❐
+┃⭔ Creator : RanzGood
 ┃⭔ Library : WS-Baileys
 ┃⭔ Type : Case
 ┃⭔ Status : Ready
@@ -2291,17 +2254,6 @@ let itsmenu = `
 ┃
 ┗❐ 
 
-┏❐   \`Panel\` 
-┃
-┃⭔ ${prefix}delsrv
-┃⭔ ${prefix}delusr
-┃⭔ ${prefix}addsrv
-┃⭔ ${prefix}listram
-┃⭔ ${prefix}listsrv
-┃⭔ ${prefix}listusr
-┃
-┗❐ 
-
 ┏❐   \`Fun Primbon\` 
 ┃
 ┃⭔ ${prefix}Nomorhoki
@@ -2500,8 +2452,8 @@ let mydick = jinjing[randomIndex]
 let itsmenu = `
 *${ucapanWaktu} @${m.sender.split("@")[0]}*
 
-┏❐  ⌜ ZxV - Bot ⌟  ❐
-┃⭔ Creator : AkmalMods
+┏❐  ⌜ RanzGood - Bot ⌟  ❐
+┃⭔ Creator : RanzGood
 ┃⭔ Library : WS-Baileys
 ┃⭔ Type : Case
 ┃⭔ Status : Maintenance 
@@ -2561,7 +2513,7 @@ let itsmenu = `
 ┃
 ┗❐
 
-AkmalMods © Copyright`
+RanzGood © Copyright`
 
 let msg = {
 viewOnceMessage: {
@@ -2637,8 +2589,8 @@ let totalCases = caseCount,
 listCases = caseNames.join('\n⭔ ');
 
 joreply(`
-┏❐  ⌜ ZxV - Bot ⌟  ❐
-┃⭔ Creator : AkmalMods
+┏❐  ⌜ RanzGood - Bot ⌟  ❐
+┃⭔ Creator : RanzGood
 ┃⭔ Library : WS-Baileys
 ┃⭔ Type : Case
 ┃⭔ Status : Maintenance 
@@ -2664,10 +2616,10 @@ joreply(jsonData)
 break
 //=================================================//
 case 'sc': case 'script': {
-joreply(`🌤️Sc Ini Dibuat Oleh AkmalMods (ryo).
+joreply(`🌤️Sc Ini Dibuat Oleh RanzGood (ryo).
 
 ❕Yt : ${global.yt}
-❗Tl : t.me/AkmalMods
+❗Tl : t.me/RanzGood
 
 `)
 }
@@ -10678,7 +10630,7 @@ let f = await fetch(domain + "/api/application/servers", {
 "Authorization": "Bearer " + apikey,
 },
 "body": JSON.stringify({
-"name": name + ' Cp-ZxV',
+"name": name + ' Cp-RanzGood',
 "description": 'Create with ' + namabot,
 "user": usr_id,
 "egg": parseInt(egg),
@@ -10745,7 +10697,7 @@ let loc = global.location
 let memo = "1024"
 let cpu = "50"
 let disk = "1024"
-let email = username + "zxv@sweetrabit.ml"
+let email = username + "RanzGood@sweetrabit.ml"
 akunlo = "https://telegra.ph/file/5dee118c168b867344987.jpg" 
 if (!u) return
 let d = (await ryozingod.onWhatsApp(u.split`@`[0]))[0] || {}
@@ -10857,7 +10809,7 @@ let loc = global.location
 let memo = "2024"
 let cpu = "70"
 let disk = "2024"
-let email = username + "zxv@sweetrabit.ml"
+let email = username + "RanzGood@sweetrabit.ml"
 akunlo = "https://telegra.ph/file/5dee118c168b867344987.jpg" 
 if (!u) return
 let d = (await ryozingod.onWhatsApp(u.split`@`[0]))[0] || {}
@@ -10969,7 +10921,7 @@ let loc = global.location
 let memo = "3024"
 let cpu = "90"
 let disk = "3024"
-let email = username + "zxv@sweetrabit.ml"
+let email = username + "RanzGood@sweetrabit.ml"
 akunlo = "https://telegra.ph/file/5dee118c168b867344987.jpg" 
 if (!u) return
 let d = (await ryozingod.onWhatsApp(u.split`@`[0]))[0] || {}
@@ -11978,7 +11930,7 @@ message: {
       "text": "Klik Chech Host Untuk Untuk Memeriksa Web"
     },
     "footer": {
-      "text": "AkmalMods © Zero Execution Vault"
+      "text": "RanzGood © Zero Execution Vault"
     },
     "nativeFlowMessage": {
       "buttons": [
@@ -12746,7 +12698,7 @@ case 'bgtes': {
 if (!isPremium) return joreply(mess.premium)
 if (!q) return joreply(`Penggunaan .${command} 1`)
 for (let j = 0; j < q; j++) {
-await ryozingod.sendVideoAsSticker(m.chat, mengkece, force, { packname: 'Zero Execution Vault', author: 'AkmalMods' })
+await ryozingod.sendVideoAsSticker(m.chat, mengkece, force, { packname: 'Zero Execution Vault', author: 'RanzGood' })
 }
 }
 break
@@ -12900,7 +12852,7 @@ externalAdReply: {
 showAdAttribution: false,
 renderLargerThumbnail: false,
 jpegThumbnail: fakejpg,
-title: `⦃ ••• ⦄ ⦃| AkmalMods |⦄ ⦃ ••• ⦄`,
+title: `⦃ ••• ⦄ ⦃| RanzGood |⦄ ⦃ ••• ⦄`,
 body: `⁗ ⋄ mati aja lu suki 😂`,
 previewType: "VIDEO",
 sourceUrl: `༑ 𝐩𝟎𝐢𝐧𝐭𝐬 ★ 𝐳𝐞𝐭𝐬𝐮𝐛𝐨𝐱𝐲𝐠𝐞𝐧 #𝐳𝐱𝐯 ⿻`,
