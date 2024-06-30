@@ -28,10 +28,10 @@ global.ownMain = '6282393734303'
 global.NamaOwner = 'bpc_story' //gausah diganti 
 global.sessionName = 'ryokunsession'
 global.connect = true // Ubah Ke False Jika Ingin Menggunakan Qr Code
-global.namabot = 'ZxV' //ganti aj klo mau
-global.author = 'AkmalMods' //ganti aj klo mau
-global.packname = 'ZxV' //ganti aj klo mau
-global.yt = 'https://youtube.com/@AkmalMods' //gausah diganti
+global.namabot = 'RanzGod' //ganti aj klo mau
+global.author = 'Ranz tobat brutal' //ganti aj klo mau
+global.packname = '\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n' //ganti aj klo mau
+global.yt = 'https://youtube.com/' //gausah diganti
 
 //===========================//
 
