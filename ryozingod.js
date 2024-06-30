@@ -1901,6 +1901,43 @@ let jinjing = [nulll, nulll2]
 let randomIndex = Math.floor(Math.random() * jinjing.length)
 let mydick = jinjing[randomIndex]
 
+//text menu
+let penisbengkok = `
+*${ucapanWaktu} @${m.sender.split("@")[0]}*
+
+┏❐  ⌜ ZxV - Bot ⌟  ❐
+┃⭔ Creator : RanzGood
+┃⭔ Library : WS-Baileys
+┃⭔ Type : Case
+┃⭔ Status : Ready
+┃⭔ Mode : ${ryozingod.public ? '✱ Public ༣' : '✲ Self ༣'}
+┃⭔ User : ${Object.keys(db.data.users).length}
+┃⭔ Prefix : Single
+┗❐
+
+RanzGood © Copyright`
+
+let njing = `
+*${ucapanWaktu} @${m.sender.split("@")[0]}*
+
+┏❐  ⌜ ZxV - Bot ⌟  ❐
+┃⭔ Creator : RanzGood
+┃⭔ Library : WS-Baileys
+┃⭔ Type : Case
+┃⭔ Status : Ready
+┃⭔ Mode : ${ryozingod.public ? '✱ Public ༣' : '✲ Self ༣'}
+┃⭔ User : ${Object.keys(db.data.users).length}
+┃⭔ Prefix : Single 
+┗❐
+
+❐${prefix}spesialmenu
+❐${prefix}allmenu
+❐${prefix}changemenu button/non
+❐${prefix}owner
+❐${prefix}botstatus
+
+RanzGood © Copyright`
+
 //Button Menu
 let freesex = {
 viewOnceMessage: {
